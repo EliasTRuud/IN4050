@@ -13,7 +13,9 @@ From w7_solutions use code.
 
 
 (For predicting probabilities: Might get issue with size of matrix)
-Probability is just y = X*weights, dont returns a bool value.
+- Probability is just y = X*weights, dont returns a bool value.
+- Calculate loss, binary cross entropy. Implement
+- "One-vs-rest" with logistic regression: 
 
 
 # Part 2:
@@ -23,6 +25,8 @@ Multi class neural network: Just apply softmax to output layer. (2024_w9)
 # Part 3:
 Make sure all plots is included.
 
+
+# For multi class log - use a wrapper from week 8 notes
 
 Group teachers:
 Code help: Emelia (Monday group)
