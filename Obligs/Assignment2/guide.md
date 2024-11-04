@@ -1,5 +1,5 @@
 
-# Part 1a: Linear classifier:
+# Part 1a: Linear classifier: DONE
 Already given cdode from Logistic Regression slide: slide 15-16. Code example
 Page: in4050/h24/w7_solutions : linear classifier, gradient descent
 
@@ -10,7 +10,6 @@ Tasks:
 
 # Part 1b: logistic regression
 From w7_solutions use code.
-
 
 (For predicting probabilities: Might get issue with size of matrix)
 - Probability is just y = X*weights, dont returns a bool value.
