@@ -1,5 +1,5 @@
 
-# Part 1a: Linear classifier: DONE
+# Part 1a: Linear classifier: DONE
 Already given cdode from Logistic Regression slide: slide 15-16. Code example
 Page: in4050/h24/w7_solutions : linear classifier, gradient descent
 
@@ -14,14 +14,14 @@ From w7_solutions use code.
 (For predicting probabilities: Might get issue with size of matrix)
 - Probability is just y = X*weights, dont returns a bool value.
 - Calculate loss, binary cross entropy. Implement
-- "One-vs-rest" with logistic regression: 
+- "One-vs-rest" with logistic regression:
 
 
 # Part 2:
 Multi class neural network: Just apply softmax to output layer. (2024_w9)
 
 
-# Part 3:
+# Part 3:
 Make sure all plots is included.
 
 
