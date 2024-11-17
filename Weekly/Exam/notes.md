@@ -56,3 +56,18 @@ Formulas:
 
 
 
+Example table:
+Class 1:
+True positive: 100  (row 1)
+False positive:  100
+True negative: 250 (diag 2 3)
+False negative: 100 (col 1)
+
+Acc = sum diagonals / sum of all = 350 / 700 = 0.5 
+
+Prescision: TP / (TP + FP) = 100 / (100 + 100) = 0.5
+Recall = TP / (TP + FN) = 100 / (100 + 100) = 0.5
+
+F1 = 2 * 0.5 * 0.5 / 1 = 0.5
+
+
