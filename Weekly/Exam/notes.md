@@ -33,12 +33,31 @@ Exam:
     - No rank based
     - Backprop by chain rule partial derivatives: go from end point y back to x1 in all paths.
     - Explainable AI: last 2 lectures. Using another model to explain another model. 
-    - Problem with explainable AI, hidden layers/black box
+    - Problem with explainable AI, hidden layers/black box and might learn on wrong things such as dogs on snow background
     - Relu: no vanishing gradient problem
     - F1 score: harmonic mean. 2*(precision * recall)/ (precision + recall)
     - Multiple objectives: most money and least distance. We will get multiple suboptimal solutions
     - Bias variance tradeoff: high bias (more generalized) -> underfittting, high variance -> overfitting
     - 
+    - Multiclass vs multilabel
+    - philosphy: chinese argumetn, turing test, areas of philosphy
+    - history of AI: SVM (support vector machine) classification 
+    - What is GAN: generator and discriminator
+    - Acc on unbalanced data sets is not good metric
+    - 
+
+    - Philoshpy
+    - 
+    - weak vs strong AI
+    - chinese room argument (ai is weak)
+    - classical (human ability to see patterns/reason) vs techincal (practical application)
+    - Dreyfus Critique AND frame problem (problem determine which aspects of a situation is relevant)
+    - Connections
+    - SVM: classification mainly, seperates data points with hyperlane.
+    - Encoder/decorder
+    - Harder to interpret better/complex models.
+    - Bias we have as a society will be reflected in AI, because the way we collect data. E.g use of certain words between genders, use in CV.
+    
 
 Formulas:
     - Fitness sharing
