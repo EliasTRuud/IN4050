@@ -107,6 +107,22 @@ Formulas:
 
 Example table:
 Class 1:
+
+
+                     PREDICTED
+
+ACTUAL      POSITIVE            NEGATIVE    
+
+POSITIVE    TP                   FN          Recall: TP/(TP+FN)
+
+NEGATIVE    FP                   TN          Specificty: TN/(FP+TN)
+
+    Preci: TP/(TP+FP)    Neg pred val:TN/(FN+TN)   ACC: (TP+TN)/(ALL)
+
+F1 Score: 2 * (Prec*recall) / (prec + recall)
+
+
+
 True positive: 100  (row 1)
 False positive:  100
 True negative: 250 (diag 2 3)
