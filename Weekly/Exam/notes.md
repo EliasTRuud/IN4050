@@ -82,6 +82,7 @@ Formulas:
     - K-fold cross validation
         - Nested k fold: For tuning hyperparameters.
             - For each hyperparamter we train k models. E.g 3125 models. Models = k_inner (possible hyperparams) * k_outer (folds) * combinations
+    
     - In a cross-validation experiment, the models accuracy fluctuates significantly across folds. You hypothesize that this is due to variance in class distribution between training and test folds. Which method could help mitigate this this issue?
         A: Increasing the number of folds in cross-validation
         b: Using stratified k-fold cross-validation
